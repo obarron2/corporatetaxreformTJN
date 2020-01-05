@@ -1,0 +1,39 @@
+iso2	country		gpd_local	source	year	type	exchange	gdp		
+AI	Anguilla	3.11E+08	wikipedia	2014	ppp	1	3.11E+08		
+AX	Aland Islands	1.56E+09	wikipedia	2007	ppp	1	1.56E+09		
+BM	Bermuda	5.85E+09	wikipedia	2017	nominal	1	5.85E+09		
+CK	Cook Islands	3.11E+08	wikipedia	2014	ppp	1	3.11E+08		
+DJ	Djibouti	2.19E+09	wikipedia	2018	nominal	1	2.19E+09		
+ER	Eritrea	6.72E+09	wikipedia	2018	nominal	1	6.72E+09		
+FK	Falkland Islands (Malvinas)	2.29E+08	wikipedia	2013	ppp	1	2.29E+08		
+FO	Faroe Islands	3.09E+09	wikipeida	2017	nominal	1	3.09E+09		
+GF	French Guiana	4.40E+09	wikipedia	2016	nominal	1	4.40E+09		
+GG	Guernsey	3.47E+09	wikipedia	2015	ppp	1	3.47E+09		
+GI	Gibraltar	1640000000	wikipedia	2013	ppp	1.564768	2566219520	(pounds)	https://www.ofx.com/en-nz/forex-news/historical-exchange-rates/yearly-average-rates/
+GP	Guadeloupe	1.03E+10	wikipedia	2012	nominal?	1	1.03E+10		
+IO	British Indian Ocean Territory							(military base)	
+JE	Jersey	6.00E+09	wikipedia	2016	ppp	1	6.00E+09		
+KO	Kosovo	8.21E+09	wikipedia	2019	nominal	1	8.21E+09		
+KY	Cayman Islands	3.48E+09	wikipedia	2014	nominal	1	3.48E+09		
+LI	Liechtenstein	5.16E+09	wikipedia	2010	nominal	1	5.16E+09		
+MK	Macedonia	1.24E+10	wikipedia	2019	nominal	1	1.24E+10		
+PF	French Polynesia	5.62E+09	wikipedia	2014	nominal	1	5.62E+09		
+TF	French Southern Territories							(scientific bases)	
+AN	Netherlands Antilles	5.60E+09	wikipedia	2012	nominal	2	1.12E+10	(based on twice the gdp of curacao)	
+MQ	Martinique	1.07E+10	wikipedia	2012	nominal	1	1.07E+10		
+MS	Montserrat	6.30E+07	wikipedia	2014	ppp	1	6.30E+07		
+NC	New Caledonia	9.89E+09	wikipedia	2011	nominal	1	9.89E+09		
+NF	Norfolk Island					1		(missing)	
+NU	Niue	1.00E+07	wikipedia	2003	ppp	1	1.00E+07		
+PN	Pitcairn	217000	wikipedia	2005	nominal	0.704513	152879.321	(NZ$)	https://www.ofx.com/en-nz/forex-news/historical-exchange-rates/yearly-average-rates/
+RE	Reunion	2.13E+10	wikipedia	2016	nominal	1	2.13E+10		
+SH	Saint Helena	3.35E+07	wikipedia 2	2015	nominal	1.528504	5.12E+07	(pound)	https://www.ofx.com/en-nz/forex-news/historical-exchange-rates/yearly-average-rates/
+YT	Mayotte	2.90E+09	wikipedia	2016	nominal	1	2.90E+09		
+EH	Western Sahara	9.00E+08	wikipedia 2	2007	nominal	1	9.00E+08		
+SO	Somalia	7.41E+09	wikipedia	2018	nominal	1	7.41E+09		
+SS	South Sudan	3.19E+09	wikipedia	2018	nominal	1	3.19E+09		
+TC	Turks and Caicos Islands	6.32E+08	cia	2007	ppp	1	6.32E+08		
+TW	Taiwan	6.03E+11	wikipedia	2018	nominal	1	6.03E+11		
+VA	Vatican City State (Holy See)	4.12E+08	cia	2013	revenue	1	4.12E+08		
+VG	Virgin Islands (British)	5.00E+08	wikipedia	2017	ppp	1	5.00E+08		
+WF	Wallis and Futuna	1.88E+08	wkipedia	2005	nominal	1	1.88E+08		

@@ -1,0 +1,4553 @@
+<html><head>
+
+
+<!-- Load require.js. Delete this if your page already loads require.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js" crossorigin="anonymous"></script>
+<script type="application/vnd.jupyter.widget-state+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "state": {
+        "c96931b9bd684d43bd8d5955375fcdd1": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "width": "50%"
+            }
+        },
+        "1e31634eb5a64960bb9783cccbb079c9": {
+            "model_name": "SliderStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": "100px"
+            }
+        },
+        "6f2de17c0f1f4aac87420cbfe80121ec": {
+            "model_name": "FloatSliderModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Set percentage:",
+                "layout": "IPY_MODEL_c96931b9bd684d43bd8d5955375fcdd1",
+                "step": 0.1,
+                "style": "IPY_MODEL_1e31634eb5a64960bb9783cccbb079c9",
+                "value": 100
+            }
+        },
+        "d19b35de769b469b9d8bb264e5c53dcd": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "6c2be8ae0f0b44719573adea9bf2d608": {
+            "model_name": "ToggleButtonsStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_width": "",
+                "description_width": ""
+            }
+        },
+        "22cf4d4cbcee48b7a1f8822f37f731e7": {
+            "model_name": "ToggleButtonsModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Sales",
+                    "Sales & Employment"
+                ],
+                "button_style": "",
+                "description": "Set method:",
+                "icons": [],
+                "index": 0,
+                "layout": "IPY_MODEL_d19b35de769b469b9d8bb264e5c53dcd",
+                "style": "IPY_MODEL_6c2be8ae0f0b44719573adea9bf2d608",
+                "tooltips": []
+            }
+        },
+        "d23a587e9ff840acb3adff194419040a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "ebf631dea08d4131b9f91938a5655508": {
+            "model_name": "ToggleButtonsStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "button_width": "",
+                "description_width": ""
+            }
+        },
+        "74210e9a62404a1994bed2d677a89853": {
+            "model_name": "ToggleButtonsModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_options_labels": [
+                    "Dollars",
+                    "% of Current Tax",
+                    "% of Current CIT"
+                ],
+                "button_style": "",
+                "description": "Set outcome:",
+                "icons": [],
+                "index": 0,
+                "layout": "IPY_MODEL_d23a587e9ff840acb3adff194419040a",
+                "style": "IPY_MODEL_ebf631dea08d4131b9f91938a5655508",
+                "tooltips": []
+            }
+        },
+        "92b10d764d7747e9a1203ab121dec545": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "ede7c4e63dfc4a19b5b7da7573ab2d1b": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "bd8ec34b928f429eb1acac25839c5637": {
+            "model_name": "TextModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "layout": "IPY_MODEL_92b10d764d7747e9a1203ab121dec545",
+                "style": "IPY_MODEL_ede7c4e63dfc4a19b5b7da7573ab2d1b"
+            }
+        },
+        "a338c3e4f4974e579a52a05761b18dee": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "0fa503afbc4e416db17fcf3f415fcebf": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "5d20ffafa6a74277b56c7913efa749c4": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "High Income Countries",
+                "disabled": false,
+                "layout": "IPY_MODEL_a338c3e4f4974e579a52a05761b18dee",
+                "style": "IPY_MODEL_0fa503afbc4e416db17fcf3f415fcebf",
+                "value": false
+            }
+        },
+        "3109a081765540159d8bca5d6917f234": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "5c41c18d10c34a5babc803e773999532": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "1efd97f0c06f4f638304ae3c316b2207": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Upper-Middle Income Countries",
+                "disabled": false,
+                "layout": "IPY_MODEL_3109a081765540159d8bca5d6917f234",
+                "style": "IPY_MODEL_5c41c18d10c34a5babc803e773999532",
+                "value": false
+            }
+        },
+        "6c12b828ea0f47388314062e2cb29b71": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f375ec1c0c5f4fc09f0f41862e1d80a2": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "7f2cee134b1c49bdb8ece7c00e6d80ac": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Lower-Middle Income Countries",
+                "disabled": false,
+                "layout": "IPY_MODEL_6c12b828ea0f47388314062e2cb29b71",
+                "style": "IPY_MODEL_f375ec1c0c5f4fc09f0f41862e1d80a2",
+                "value": false
+            }
+        },
+        "7839c642a55a4b5080a1e07c6cb1236f": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "7d098963fd7241ab8bb14a1faf44b647": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "1628dbcdcbfa4516b6b91ba35e5ddea5": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Lower Income Countries",
+                "disabled": false,
+                "layout": "IPY_MODEL_7839c642a55a4b5080a1e07c6cb1236f",
+                "style": "IPY_MODEL_7d098963fd7241ab8bb14a1faf44b647",
+                "value": false
+            }
+        },
+        "446e0bd914bf407bbc83aeaa96ddb2bf": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "b5893ed84e3544a9bdb867dd768244fe": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "877ba9dfcbb64b5a909a1053a168ab67": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Tax Havens",
+                "disabled": false,
+                "layout": "IPY_MODEL_446e0bd914bf407bbc83aeaa96ddb2bf",
+                "style": "IPY_MODEL_b5893ed84e3544a9bdb867dd768244fe",
+                "value": false
+            }
+        },
+        "3beafa1e7beb49aab3f8b3d0beb1cc0d": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "23b33ca5c0354cab93304533782fb8d4": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "57496e907e024078990e3f6ad773696d": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "G7",
+                "disabled": false,
+                "layout": "IPY_MODEL_3beafa1e7beb49aab3f8b3d0beb1cc0d",
+                "style": "IPY_MODEL_23b33ca5c0354cab93304533782fb8d4",
+                "value": false
+            }
+        },
+        "01b3274dc1af4931af5be857a69ad44c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f3face04b3ea48fb9e6bb079f9cb8ba6": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "e1c4a559f79b4efba410cb5d3360d7e9": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "G24",
+                "disabled": false,
+                "layout": "IPY_MODEL_01b3274dc1af4931af5be857a69ad44c",
+                "style": "IPY_MODEL_f3face04b3ea48fb9e6bb079f9cb8ba6",
+                "value": false
+            }
+        },
+        "15b8b17fd99b430abf732082bb0be700": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "176f3c0419934387824765922abc77de": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "d7f8aaa2a1084d719f748e89238ec548": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "G77",
+                "disabled": false,
+                "layout": "IPY_MODEL_15b8b17fd99b430abf732082bb0be700",
+                "style": "IPY_MODEL_176f3c0419934387824765922abc77de",
+                "value": false
+            }
+        },
+        "a9c51c4b2ce04a5784451cadc3cc442d": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "25e09c14ca534c8e87c83fe405def33a": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "8c6789d301de4fc3865b2a42fceebd1f": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "EU",
+                "disabled": false,
+                "layout": "IPY_MODEL_a9c51c4b2ce04a5784451cadc3cc442d",
+                "style": "IPY_MODEL_25e09c14ca534c8e87c83fe405def33a",
+                "value": false
+            }
+        },
+        "cc56cec39409499b8497e424d4e61474": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "183f1949e01b440baeae45aca440f94f": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "ccdc3e46c6a64fef95cb3852531a547d": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "G20",
+                "disabled": false,
+                "layout": "IPY_MODEL_cc56cec39409499b8497e424d4e61474",
+                "style": "IPY_MODEL_183f1949e01b440baeae45aca440f94f",
+                "value": false
+            }
+        },
+        "722fda945cc144a8bb4d874e1ab23c00": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "40fad359c4a546e0a05a62475edce5d8": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "1b28390de788458a9bd16da1c352363c": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "OECD",
+                "disabled": false,
+                "layout": "IPY_MODEL_722fda945cc144a8bb4d874e1ab23c00",
+                "style": "IPY_MODEL_40fad359c4a546e0a05a62475edce5d8",
+                "value": false
+            }
+        },
+        "7d7518b1f8eb4b7287a496960937ca47": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "e881ae5114e248ecb5a86f657d819497": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "89faf292f2cd434d8d7452fbda39d71f": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "G7 without US",
+                "disabled": false,
+                "layout": "IPY_MODEL_7d7518b1f8eb4b7287a496960937ca47",
+                "style": "IPY_MODEL_e881ae5114e248ecb5a86f657d819497",
+                "value": false
+            }
+        },
+        "f2a0d587a8c04e3f88be5ced9d07e0eb": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "69bbbf64e5164d54a54d9b64a97b2955": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "15f4f91b3ce44b48b83d842db41c167f": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "OECD without US",
+                "disabled": false,
+                "layout": "IPY_MODEL_f2a0d587a8c04e3f88be5ced9d07e0eb",
+                "style": "IPY_MODEL_69bbbf64e5164d54a54d9b64a97b2955",
+                "value": false
+            }
+        },
+        "05b58372e7e647788a4be0c67cf5961c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "aafd3bd7bb704816a9bc4454ed2034cf": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "493e998c28e14bca8ead5a3824f7af08": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "G20 without OECD",
+                "disabled": false,
+                "layout": "IPY_MODEL_05b58372e7e647788a4be0c67cf5961c",
+                "style": "IPY_MODEL_aafd3bd7bb704816a9bc4454ed2034cf",
+                "value": false
+            }
+        },
+        "02aff6f6ce904fd2be26eac78b9876be": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "633963528d244b15ba4afce02781a8d8": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "80f7e278654141cfad94560e0876a2f5": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "All jurisdictions",
+                "disabled": false,
+                "layout": "IPY_MODEL_02aff6f6ce904fd2be26eac78b9876be",
+                "style": "IPY_MODEL_633963528d244b15ba4afce02781a8d8",
+                "value": false
+            }
+        },
+        "a1eae80c0d4f4610bf583cb94faeb1c4": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "d89da93497ed490bbc79dcff67d91c1c": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "14203c9987dc44aca2b4c5ae69bc0dd8": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "United States",
+                "disabled": false,
+                "layout": "IPY_MODEL_a1eae80c0d4f4610bf583cb94faeb1c4",
+                "style": "IPY_MODEL_d89da93497ed490bbc79dcff67d91c1c",
+                "value": false
+            }
+        },
+        "437c5eacb1534e50ae95031fdd00c410": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "fa5d8e4dee6a49229c84188560741458": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "56c8b0fb43bd4766b87194d0422be9c4": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Stateless entities and other country",
+                "disabled": false,
+                "layout": "IPY_MODEL_437c5eacb1534e50ae95031fdd00c410",
+                "style": "IPY_MODEL_fa5d8e4dee6a49229c84188560741458",
+                "value": false
+            }
+        },
+        "418aae52594b4dd9b7c5bb8d09947a1e": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "36151772ed05444a96a7e5f14cf296bd": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "9d810b6acc3b4a2dba8a37b333e0143b": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Algeria",
+                "disabled": false,
+                "layout": "IPY_MODEL_418aae52594b4dd9b7c5bb8d09947a1e",
+                "style": "IPY_MODEL_36151772ed05444a96a7e5f14cf296bd",
+                "value": false
+            }
+        },
+        "1c032cfadb2240a18e8e9c8de0fd17d3": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "791b022517324e71a773e65161f8dc28": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "3605dc2468ea494f8ea1f92107ad8a98": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Angola",
+                "disabled": false,
+                "layout": "IPY_MODEL_1c032cfadb2240a18e8e9c8de0fd17d3",
+                "style": "IPY_MODEL_791b022517324e71a773e65161f8dc28",
+                "value": false
+            }
+        },
+        "4b623258ea7249c3859e8c2d9a4353a7": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "7fe0db7dab9c4d6d8a92c6f2e89f4492": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "c18a371bc2ad4453805f5c379c4187cc": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Botswana",
+                "disabled": false,
+                "layout": "IPY_MODEL_4b623258ea7249c3859e8c2d9a4353a7",
+                "style": "IPY_MODEL_7fe0db7dab9c4d6d8a92c6f2e89f4492",
+                "value": false
+            }
+        },
+        "1a9891197a2641fd912c0993b3581422": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "178f02f8823d4233b2b7ef0d335142c2": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "cfcac34832004875ba30b7437b2383ff": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Cameroon",
+                "disabled": false,
+                "layout": "IPY_MODEL_1a9891197a2641fd912c0993b3581422",
+                "style": "IPY_MODEL_178f02f8823d4233b2b7ef0d335142c2",
+                "value": false
+            }
+        },
+        "aa5673a28446483fbe9db1404a978aec": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "4a9072e0b557456ba524c4de6f273c79": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "ce410a3833e1439ea7e2473c12944c9e": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Congo (Brazzaville)",
+                "disabled": false,
+                "layout": "IPY_MODEL_aa5673a28446483fbe9db1404a978aec",
+                "style": "IPY_MODEL_4a9072e0b557456ba524c4de6f273c79",
+                "value": false
+            }
+        },
+        "2b44b7db20974d12a57c7fea8b120e50": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "7640a43473cd44e1a888e20f7d2a9e1f": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "baf069dcdbb5404b9c8ddab05f40067d": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Cote D'Ivoire (Ivory Coast)",
+                "disabled": false,
+                "layout": "IPY_MODEL_2b44b7db20974d12a57c7fea8b120e50",
+                "style": "IPY_MODEL_7640a43473cd44e1a888e20f7d2a9e1f",
+                "value": false
+            }
+        },
+        "377dd68575d441d9892a99db08d67ff4": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "8144616cf5834bdb998f329f1a847588": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "4beff31513144c6ea4623d6c77265b01": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Egypt",
+                "disabled": false,
+                "layout": "IPY_MODEL_377dd68575d441d9892a99db08d67ff4",
+                "style": "IPY_MODEL_8144616cf5834bdb998f329f1a847588",
+                "value": false
+            }
+        },
+        "197650ffd2634bcf8acdeadaad7cd0f7": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "378d049222164c7f9efd204846948059": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "441d6849ed844ef8b57ce5f858ed7519": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Equatorial Guinea",
+                "disabled": false,
+                "layout": "IPY_MODEL_197650ffd2634bcf8acdeadaad7cd0f7",
+                "style": "IPY_MODEL_378d049222164c7f9efd204846948059",
+                "value": false
+            }
+        },
+        "4604b15c07cc43b6bec18d3aea120204": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "9538c3f9eb6640fc8bd0daf96bb65a58": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "335b64f1dc29432497d32368c64ae590": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Gabon",
+                "disabled": false,
+                "layout": "IPY_MODEL_4604b15c07cc43b6bec18d3aea120204",
+                "style": "IPY_MODEL_9538c3f9eb6640fc8bd0daf96bb65a58",
+                "value": false
+            }
+        },
+        "2449e2e416b240cdab24436a011770f4": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "380432c9b9ee49afba68e71518c184c6": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "3a475ed4f3cc4008bd30458453bcbf14": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Ghana",
+                "disabled": false,
+                "layout": "IPY_MODEL_2449e2e416b240cdab24436a011770f4",
+                "style": "IPY_MODEL_380432c9b9ee49afba68e71518c184c6",
+                "value": false
+            }
+        },
+        "b7850aa0767a49619514fdd8e2582660": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "d039d5f77ac440a49a2f0277d0d1704c": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "b400d2a05d6a48aaaea2be77f705095c": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Kenya",
+                "disabled": false,
+                "layout": "IPY_MODEL_b7850aa0767a49619514fdd8e2582660",
+                "style": "IPY_MODEL_d039d5f77ac440a49a2f0277d0d1704c",
+                "value": false
+            }
+        },
+        "67ebdc4d16d34a55b7d2ff461fd26635": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "cf13992c2d2b45d0b997e0ee803bc4d5": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "490ecdf827a5488d9b26d0c2059fef75": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Libya",
+                "disabled": false,
+                "layout": "IPY_MODEL_67ebdc4d16d34a55b7d2ff461fd26635",
+                "style": "IPY_MODEL_cf13992c2d2b45d0b997e0ee803bc4d5",
+                "value": false
+            }
+        },
+        "7fcdac3826a843419663d3794da1acd0": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "6fe62bae9ad3413990a5d9e513a12404": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "cb119a98730b47b3a14e842f846a5aa5": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Mauritius",
+                "disabled": false,
+                "layout": "IPY_MODEL_7fcdac3826a843419663d3794da1acd0",
+                "style": "IPY_MODEL_6fe62bae9ad3413990a5d9e513a12404",
+                "value": false
+            }
+        },
+        "3936371d7e2f40a7a5f61e255cfafba0": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "da81b198c36b41248edec5395f286dea": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "1442e3aecb6b427c92bad2f6eb582a7d": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Morocco",
+                "disabled": false,
+                "layout": "IPY_MODEL_3936371d7e2f40a7a5f61e255cfafba0",
+                "style": "IPY_MODEL_da81b198c36b41248edec5395f286dea",
+                "value": false
+            }
+        },
+        "4e4317dae3e7469386f95a585c2ea992": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "c413168fa61a4dd69b4267ee702c7dde": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "f1382cb684c34e3990c7f1a2d94427bd": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Mozambique",
+                "disabled": false,
+                "layout": "IPY_MODEL_4e4317dae3e7469386f95a585c2ea992",
+                "style": "IPY_MODEL_c413168fa61a4dd69b4267ee702c7dde",
+                "value": false
+            }
+        },
+        "3e872f5187504b2bacb5a600ccc6076c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "a9e58b678a054a889867bd99edfc5bea": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "d5b23d45ce004c668b8d54c966d02a95": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Namibia",
+                "disabled": false,
+                "layout": "IPY_MODEL_3e872f5187504b2bacb5a600ccc6076c",
+                "style": "IPY_MODEL_a9e58b678a054a889867bd99edfc5bea",
+                "value": false
+            }
+        },
+        "67df2632597e4a809a9cee6396555087": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f267389ebaae47cdbae6c2bd03d912b5": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "c01ef2faca764c93a01ea217132b776b": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Nigeria",
+                "disabled": false,
+                "layout": "IPY_MODEL_67df2632597e4a809a9cee6396555087",
+                "style": "IPY_MODEL_f267389ebaae47cdbae6c2bd03d912b5",
+                "value": false
+            }
+        },
+        "0677260f35de4583933ae6021711c141": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "90ac3600496c4ac39c1d8c66862ef971": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "b60037b5bc5a4fce8a7e17041a9d7df0": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Senegal",
+                "disabled": false,
+                "layout": "IPY_MODEL_0677260f35de4583933ae6021711c141",
+                "style": "IPY_MODEL_90ac3600496c4ac39c1d8c66862ef971",
+                "value": false
+            }
+        },
+        "331aad231b6c4f15a7af49570ca807bd": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "dc150283277d435daf28edff6e20d9bc": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "5dde4172b87b4fa6b63c08ce2ce45697": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "South Africa",
+                "disabled": false,
+                "layout": "IPY_MODEL_331aad231b6c4f15a7af49570ca807bd",
+                "style": "IPY_MODEL_dc150283277d435daf28edff6e20d9bc",
+                "value": false
+            }
+        },
+        "f396fcde17d54a27bb5a14d1e451201c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "0a8f9bc3d0dc468baf59f9d09948c838": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "b5d5869f260b49f9b92935b93220be6a": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Tanzania",
+                "disabled": false,
+                "layout": "IPY_MODEL_f396fcde17d54a27bb5a14d1e451201c",
+                "style": "IPY_MODEL_0a8f9bc3d0dc468baf59f9d09948c838",
+                "value": false
+            }
+        },
+        "ac67d05433ca4361aea9eb6f9834eeb7": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "17d114ed2ca14dbaa656c58db226843c": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "16103169e8d843d58e748b282bdf0495": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Tunisia",
+                "disabled": false,
+                "layout": "IPY_MODEL_ac67d05433ca4361aea9eb6f9834eeb7",
+                "style": "IPY_MODEL_17d114ed2ca14dbaa656c58db226843c",
+                "value": false
+            }
+        },
+        "9eb686fb26d14575a87b659c9441121e": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "bb35e719b4c74096ad9b98bfb80456bc": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "4cf5b65d05bc409083a446227c64e944": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Uganda",
+                "disabled": false,
+                "layout": "IPY_MODEL_9eb686fb26d14575a87b659c9441121e",
+                "style": "IPY_MODEL_bb35e719b4c74096ad9b98bfb80456bc",
+                "value": false
+            }
+        },
+        "593632d179d041b692ee7a16dbe9fb55": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "cfa7ef14d8df4df5b8094f668516bece": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "2da8d19d06da43e092258faf7ba9822b": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Zambia",
+                "disabled": false,
+                "layout": "IPY_MODEL_593632d179d041b692ee7a16dbe9fb55",
+                "style": "IPY_MODEL_cfa7ef14d8df4df5b8094f668516bece",
+                "value": false
+            }
+        },
+        "9a424643be07427c9e74ec051e8e43a7": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "fd18a4f5ff3a497d82b6ecc254125d48": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "f8ddcd45774a40f0a7e34cd6c4809821": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Zimbabwe",
+                "disabled": false,
+                "layout": "IPY_MODEL_9a424643be07427c9e74ec051e8e43a7",
+                "style": "IPY_MODEL_fd18a4f5ff3a497d82b6ecc254125d48",
+                "value": false
+            }
+        },
+        "0b0c6c41cea54f62ad6cb23b0d280935": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "eba780d0e25e4f9e887caa52be5c6ccf": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "67b3186c310444d5924110871869ffd9": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Africa, other countries",
+                "disabled": false,
+                "layout": "IPY_MODEL_0b0c6c41cea54f62ad6cb23b0d280935",
+                "style": "IPY_MODEL_eba780d0e25e4f9e887caa52be5c6ccf",
+                "value": false
+            }
+        },
+        "b402cf7b88a04195868ef8a8ad63868b": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "c97e8368825540318fb42d64688d2e0b": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "18ab5c51932449eebafd5cda61c17da4": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Argentina",
+                "disabled": false,
+                "layout": "IPY_MODEL_b402cf7b88a04195868ef8a8ad63868b",
+                "style": "IPY_MODEL_c97e8368825540318fb42d64688d2e0b",
+                "value": false
+            }
+        },
+        "fa4986d5365a42c5b9ada54c07ad949c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "a0d831cd205c49a781ae492816b96b8b": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "fa143033ed0e4eec8b397169060347a7": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Aruba",
+                "disabled": false,
+                "layout": "IPY_MODEL_fa4986d5365a42c5b9ada54c07ad949c",
+                "style": "IPY_MODEL_a0d831cd205c49a781ae492816b96b8b",
+                "value": false
+            }
+        },
+        "8d71c5d4545d4172a5fff140b16f75b0": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "7175987a12a946279c238c453935edef": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "28c1883f60d14c0cb5084adb01a288ff": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Bahamas",
+                "disabled": false,
+                "layout": "IPY_MODEL_8d71c5d4545d4172a5fff140b16f75b0",
+                "style": "IPY_MODEL_7175987a12a946279c238c453935edef",
+                "value": false
+            }
+        },
+        "e3a8ff7046e94521b9f3a0a1b90e4763": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "9d44c8280e5b4bfc95d8778c69b5a0ad": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "88803ad7d06a44e398303ba24760bf36": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Barbados",
+                "disabled": false,
+                "layout": "IPY_MODEL_e3a8ff7046e94521b9f3a0a1b90e4763",
+                "style": "IPY_MODEL_9d44c8280e5b4bfc95d8778c69b5a0ad",
+                "value": false
+            }
+        },
+        "5d9d6a9efae345c08e89fdb4e581de43": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f4e53980ca9648af963c8b2ab1a6272c": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "b944e7f8a8164daea855522392efd2dd": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Bermuda",
+                "disabled": false,
+                "layout": "IPY_MODEL_5d9d6a9efae345c08e89fdb4e581de43",
+                "style": "IPY_MODEL_f4e53980ca9648af963c8b2ab1a6272c",
+                "value": false
+            }
+        },
+        "b2ff80ae9ba2426f862e0973ac5133f4": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "76492c55120d4400a5c51b6428058d2a": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "0f60b07d4dcd4d089d1ec12679133f58": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Bolivia",
+                "disabled": false,
+                "layout": "IPY_MODEL_b2ff80ae9ba2426f862e0973ac5133f4",
+                "style": "IPY_MODEL_76492c55120d4400a5c51b6428058d2a",
+                "value": false
+            }
+        },
+        "3672d8f844834dea863e7bc142a891f3": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "5ef18b2774e54728a9c8f48a33c894cc": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "1a3b64e5f3c44cc6934c8f236032e43e": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Brazil",
+                "disabled": false,
+                "layout": "IPY_MODEL_3672d8f844834dea863e7bc142a891f3",
+                "style": "IPY_MODEL_5ef18b2774e54728a9c8f48a33c894cc",
+                "value": false
+            }
+        },
+        "04e7206afd55427aaf9503601adfe03b": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "a52da5d637b64a7788c0ff9e7c6029ee": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "0185fd49ce034b9ca65a6f577c42ce50": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "British Virgin Islands",
+                "disabled": false,
+                "layout": "IPY_MODEL_04e7206afd55427aaf9503601adfe03b",
+                "style": "IPY_MODEL_a52da5d637b64a7788c0ff9e7c6029ee",
+                "value": false
+            }
+        },
+        "e9a4bff6fecb42a3b14fe060792385c2": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "e322d54232384d658779ee62b58e80c2": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "60d6f30b294d4dbab257d4b1dac6eae7": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Canada",
+                "disabled": false,
+                "layout": "IPY_MODEL_e9a4bff6fecb42a3b14fe060792385c2",
+                "style": "IPY_MODEL_e322d54232384d658779ee62b58e80c2",
+                "value": false
+            }
+        },
+        "ee53edd5c2774fdbb755adf845da5d1e": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "c4f82acd028241a6963af249f6cdf3c1": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "80b00306bb6847fdb4b4ffbdaca5917d": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Cayman Islands",
+                "disabled": false,
+                "layout": "IPY_MODEL_ee53edd5c2774fdbb755adf845da5d1e",
+                "style": "IPY_MODEL_c4f82acd028241a6963af249f6cdf3c1",
+                "value": false
+            }
+        },
+        "4b6f33fc3daf4d5e8343684fac6bd65d": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "d76e0b975048463aa00d444907b828d3": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "e6111b4eec6a4f44a6391444b1fe0fb3": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Chile",
+                "disabled": false,
+                "layout": "IPY_MODEL_4b6f33fc3daf4d5e8343684fac6bd65d",
+                "style": "IPY_MODEL_d76e0b975048463aa00d444907b828d3",
+                "value": false
+            }
+        },
+        "26932c74b12b47a3a11215a09dae91fc": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "1e545efe2b6f4890a5b4454b4ffa24c0": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "3d6e1b192ce648be9222575d13594a42": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Colombia",
+                "disabled": false,
+                "layout": "IPY_MODEL_26932c74b12b47a3a11215a09dae91fc",
+                "style": "IPY_MODEL_1e545efe2b6f4890a5b4454b4ffa24c0",
+                "value": false
+            }
+        },
+        "4a6a9810afec4cf5a0af0138acb10e39": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "e23552bd23f64eb28bb27fed496007e4": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "a0d24487e6f44ba6a924023508375b0f": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Costa Rica",
+                "disabled": false,
+                "layout": "IPY_MODEL_4a6a9810afec4cf5a0af0138acb10e39",
+                "style": "IPY_MODEL_e23552bd23f64eb28bb27fed496007e4",
+                "value": false
+            }
+        },
+        "0b8efba61119441eaf4d8ada9f3fba1f": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "3b284d9461d54d5d844886b66173f728": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "2b03396e10174b9bbf38a83d7ee7317c": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Curacao",
+                "disabled": false,
+                "layout": "IPY_MODEL_0b8efba61119441eaf4d8ada9f3fba1f",
+                "style": "IPY_MODEL_3b284d9461d54d5d844886b66173f728",
+                "value": false
+            }
+        },
+        "e1ba2fcc894e4586829c7dec99cde292": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "5bb8786d08954210b946331535001554": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "3fc23b4c0cca4e7e9050806cc2535878": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Dominican Republic",
+                "disabled": false,
+                "layout": "IPY_MODEL_e1ba2fcc894e4586829c7dec99cde292",
+                "style": "IPY_MODEL_5bb8786d08954210b946331535001554",
+                "value": false
+            }
+        },
+        "264eb29421ba4d7eb9eda04ed70fc2ea": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "1f4a3f5a89a343de93bdfcb0474ead6b": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "9cbbbeea5e3c4523bd410c6d15e7592f": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Ecuador",
+                "disabled": false,
+                "layout": "IPY_MODEL_264eb29421ba4d7eb9eda04ed70fc2ea",
+                "style": "IPY_MODEL_1f4a3f5a89a343de93bdfcb0474ead6b",
+                "value": false
+            }
+        },
+        "fbef41f1484f4cfc963314ad4a2271fe": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "a211891031c94ea981f5c276a3d870bd": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "b669ed35d18e46be8c9dd556e87d14ef": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "El Salvador",
+                "disabled": false,
+                "layout": "IPY_MODEL_fbef41f1484f4cfc963314ad4a2271fe",
+                "style": "IPY_MODEL_a211891031c94ea981f5c276a3d870bd",
+                "value": false
+            }
+        },
+        "5edfcf4461e847829f3b48b91cb388c4": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "c908706e86d84926ad05cbac6410c00b": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "2a887896c6464b62a0a5bd285777c017": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Guatemala",
+                "disabled": false,
+                "layout": "IPY_MODEL_5edfcf4461e847829f3b48b91cb388c4",
+                "style": "IPY_MODEL_c908706e86d84926ad05cbac6410c00b",
+                "value": false
+            }
+        },
+        "51fc2e70d3974b7d8d60dbce138f52d4": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "df7cfd4ad0f046d1a08b41b1e11e2fa0": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "486b2855de3a48a8aab76e7280e3010a": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Honduras",
+                "disabled": false,
+                "layout": "IPY_MODEL_51fc2e70d3974b7d8d60dbce138f52d4",
+                "style": "IPY_MODEL_df7cfd4ad0f046d1a08b41b1e11e2fa0",
+                "value": false
+            }
+        },
+        "600d82008f784b568351e0e35d6679a0": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "8c88b8c55ef44fb1b713a1d26bd9b044": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "d1ec77931ccf4ef69b760d753d17e87a": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Jamaica",
+                "disabled": false,
+                "layout": "IPY_MODEL_600d82008f784b568351e0e35d6679a0",
+                "style": "IPY_MODEL_8c88b8c55ef44fb1b713a1d26bd9b044",
+                "value": false
+            }
+        },
+        "18dc3b6649484eb6bfa66136ecfc8ad9": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "d5062687d5d5467ca43c9aa7b904185a": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "b50976e2da3742009c10db1d58bb3b04": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Mexico",
+                "disabled": false,
+                "layout": "IPY_MODEL_18dc3b6649484eb6bfa66136ecfc8ad9",
+                "style": "IPY_MODEL_d5062687d5d5467ca43c9aa7b904185a",
+                "value": false
+            }
+        },
+        "7aee47399ada453386664536a45eafa6": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "dde93f45795d48ff9a5dc87dc19b5f0a": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "44126c047d00457e97b2edc5ebc015a9": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Nicaragua",
+                "disabled": false,
+                "layout": "IPY_MODEL_7aee47399ada453386664536a45eafa6",
+                "style": "IPY_MODEL_dde93f45795d48ff9a5dc87dc19b5f0a",
+                "value": false
+            }
+        },
+        "3a0d7a99605f4a7b91cddff49e91bb3e": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "ba3a56af3317491d9b6b1857738150c3": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "9813dcd793b840c8b1132084063c8c8c": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Panama",
+                "disabled": false,
+                "layout": "IPY_MODEL_3a0d7a99605f4a7b91cddff49e91bb3e",
+                "style": "IPY_MODEL_ba3a56af3317491d9b6b1857738150c3",
+                "value": false
+            }
+        },
+        "87692002b460422a818e0e166e940598": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "4d91d93e9153488e9f2375b71d4c8bed": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "a1ef7b4513c64c8fb474cc85d847a3de": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Paraguay",
+                "disabled": false,
+                "layout": "IPY_MODEL_87692002b460422a818e0e166e940598",
+                "style": "IPY_MODEL_4d91d93e9153488e9f2375b71d4c8bed",
+                "value": false
+            }
+        },
+        "f4a5912f51d24f6c92292a5de96be3ab": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "0220d0381f7c4d86885c2eed72c65e09": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "acf843c704994ce2b9af5a3ae49523b7": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Peru",
+                "disabled": false,
+                "layout": "IPY_MODEL_f4a5912f51d24f6c92292a5de96be3ab",
+                "style": "IPY_MODEL_0220d0381f7c4d86885c2eed72c65e09",
+                "value": false
+            }
+        },
+        "1c5b9538f5114b89bdc651ab2d467b89": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "cf2661e72747460ab3502ff86f579712": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "4b61f8c14f394cc79007a4faca837b2c": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Puerto Rico",
+                "disabled": false,
+                "layout": "IPY_MODEL_1c5b9538f5114b89bdc651ab2d467b89",
+                "style": "IPY_MODEL_cf2661e72747460ab3502ff86f579712",
+                "value": false
+            }
+        },
+        "7c15850f2b42419fbd24ca2171061428": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "9e16a0b7464b48b7ad7f8c46ad620fa8": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "075cf22340ce49549f5d9d05e1cf69b7": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "St. Kitts and Nevis",
+                "disabled": false,
+                "layout": "IPY_MODEL_7c15850f2b42419fbd24ca2171061428",
+                "style": "IPY_MODEL_9e16a0b7464b48b7ad7f8c46ad620fa8",
+                "value": false
+            }
+        },
+        "f244b477f25f46be976cfc7bd4d9e11a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "060aff63874148239ac06df0adb6aa4c": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "34f4f831ee284a94bff40cd101f910ca": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "St. Lucia Island",
+                "disabled": false,
+                "layout": "IPY_MODEL_f244b477f25f46be976cfc7bd4d9e11a",
+                "style": "IPY_MODEL_060aff63874148239ac06df0adb6aa4c",
+                "value": false
+            }
+        },
+        "e6113c68a9164413ab291887b5f1e54c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "b7071fae3a5047c397939338e0010ebe": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "3ec5d5ed0fda402cb82c85dbb8999d90": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Trinidad and Tobago",
+                "disabled": false,
+                "layout": "IPY_MODEL_e6113c68a9164413ab291887b5f1e54c",
+                "style": "IPY_MODEL_b7071fae3a5047c397939338e0010ebe",
+                "value": false
+            }
+        },
+        "a88046ff0b9e497c9a5a693ae8ed08fb": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "806fd8b905a64fc5b1028f568ef5bf84": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "fa2349e8631c4c6e9b65bc6ff27ccaeb": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Uruguay",
+                "disabled": false,
+                "layout": "IPY_MODEL_a88046ff0b9e497c9a5a693ae8ed08fb",
+                "style": "IPY_MODEL_806fd8b905a64fc5b1028f568ef5bf84",
+                "value": false
+            }
+        },
+        "a83e3f17500a451e8209a15945ab2694": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "6fce65b9c07b4222b0a5b937172554e1": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "e19a61d7e4b04c86982ea9cec8f3a09c": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Venezuela",
+                "disabled": false,
+                "layout": "IPY_MODEL_a83e3f17500a451e8209a15945ab2694",
+                "style": "IPY_MODEL_6fce65b9c07b4222b0a5b937172554e1",
+                "value": false
+            }
+        },
+        "05b5953fb26d499db9450c109647e518": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "7ad0e375e05144c18f8a7d3e01c5d199": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "a21e330b6dfb4a9ebf5282707c7401f3": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Virgin Islands",
+                "disabled": false,
+                "layout": "IPY_MODEL_05b5953fb26d499db9450c109647e518",
+                "style": "IPY_MODEL_7ad0e375e05144c18f8a7d3e01c5d199",
+                "value": false
+            }
+        },
+        "8efb38f8c9ed42c494fc853b8a65f778": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "567bd6cdc53f449f9b644455759b75e7": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "65f0e0a0eafd4cc9b88e7e950ccb00ce": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Americas, other countries",
+                "disabled": false,
+                "layout": "IPY_MODEL_8efb38f8c9ed42c494fc853b8a65f778",
+                "style": "IPY_MODEL_567bd6cdc53f449f9b644455759b75e7",
+                "value": false
+            }
+        },
+        "21ceea6d66b94f2a89dc0a8464759ecb": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "628b0f4f01fe40e59a0ec52a4f29cc37": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "636e0204e058468db25ea51b1e8d867e": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Armenia",
+                "disabled": false,
+                "layout": "IPY_MODEL_21ceea6d66b94f2a89dc0a8464759ecb",
+                "style": "IPY_MODEL_628b0f4f01fe40e59a0ec52a4f29cc37",
+                "value": false
+            }
+        },
+        "e0525e358dca4003961cdf30724e216c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "385347210e9041abbfb2c9d19c768ad7": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "a2d17a196440403196b133b46126fa60": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Australia",
+                "disabled": false,
+                "layout": "IPY_MODEL_e0525e358dca4003961cdf30724e216c",
+                "style": "IPY_MODEL_385347210e9041abbfb2c9d19c768ad7",
+                "value": false
+            }
+        },
+        "057008430831495b860e784b1a391b2c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "076b43819c1946f0bda0c57a0d6a2446": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "2074ba4a9e40457088fec215cd50f212": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Azerbaijan",
+                "disabled": false,
+                "layout": "IPY_MODEL_057008430831495b860e784b1a391b2c",
+                "style": "IPY_MODEL_076b43819c1946f0bda0c57a0d6a2446",
+                "value": false
+            }
+        },
+        "d9322a61a2aa4f389d6df5d9f84a2b74": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "3b24758e22a3448ba441ff29ecf295d7": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "2c9f52dc2a9c443db6c2d7bcd1c3e2ef": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Bahrain",
+                "disabled": false,
+                "layout": "IPY_MODEL_d9322a61a2aa4f389d6df5d9f84a2b74",
+                "style": "IPY_MODEL_3b24758e22a3448ba441ff29ecf295d7",
+                "value": false
+            }
+        },
+        "9287fd8ffb494c86915dab3ff9a6f307": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "e83ffbd978fc452a880ef8fdf3b39052": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "a90ce058876647d890312b3a0b90f9a2": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Bangladesh",
+                "disabled": false,
+                "layout": "IPY_MODEL_9287fd8ffb494c86915dab3ff9a6f307",
+                "style": "IPY_MODEL_e83ffbd978fc452a880ef8fdf3b39052",
+                "value": false
+            }
+        },
+        "33dd14f371b143478a2d0a58a4fa05db": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "8e66ab56f6c84748b213e564f571b91e": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "b873844ea0b84e2083a74e28028254fb": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Brunei",
+                "disabled": false,
+                "layout": "IPY_MODEL_33dd14f371b143478a2d0a58a4fa05db",
+                "style": "IPY_MODEL_8e66ab56f6c84748b213e564f571b91e",
+                "value": false
+            }
+        },
+        "e26fe2a466d44da6bd03710b0cd6fdf8": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "e216b68389664f3196971f2ef421b7c8": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "0174904ab29e40bca0c0652f7a72a7a6": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Burma",
+                "disabled": false,
+                "layout": "IPY_MODEL_e26fe2a466d44da6bd03710b0cd6fdf8",
+                "style": "IPY_MODEL_e216b68389664f3196971f2ef421b7c8",
+                "value": false
+            }
+        },
+        "c785dd526dba47878019c8f44c43f7db": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "b985afae01c048c4b0b935661d4ab011": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "9243fa7a7c6444cea6504b361b68486a": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Cambodia",
+                "disabled": false,
+                "layout": "IPY_MODEL_c785dd526dba47878019c8f44c43f7db",
+                "style": "IPY_MODEL_b985afae01c048c4b0b935661d4ab011",
+                "value": false
+            }
+        },
+        "43c1177992044b70bfdb86069900c928": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "207655489b234035a778ac12137facce": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "ddd9047f316843a88c8ffa6bfbfc4af8": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "China",
+                "disabled": false,
+                "layout": "IPY_MODEL_43c1177992044b70bfdb86069900c928",
+                "style": "IPY_MODEL_207655489b234035a778ac12137facce",
+                "value": false
+            }
+        },
+        "51e16d91cb144b84aa7a5c072fbfc281": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "17f7ebeb12c94e2ab08cda6c318339af": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "13557a1049ec4ffda5b70a0b105ab841": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Fiji",
+                "disabled": false,
+                "layout": "IPY_MODEL_51e16d91cb144b84aa7a5c072fbfc281",
+                "style": "IPY_MODEL_17f7ebeb12c94e2ab08cda6c318339af",
+                "value": false
+            }
+        },
+        "986d243d00094b8d8f5be9917b236399": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f1e1ac27204e41919e05d4ee79fb9dc7": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "fa2d6d38c820413197dc9cc4771d648b": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Georgia",
+                "disabled": false,
+                "layout": "IPY_MODEL_986d243d00094b8d8f5be9917b236399",
+                "style": "IPY_MODEL_f1e1ac27204e41919e05d4ee79fb9dc7",
+                "value": false
+            }
+        },
+        "55f0ee5e5acf4be6864c742f808544ea": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "1c9710d36d1d497f99c3884b74e01c48": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "a440aabba07d4a17bc230bea946c78bb": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Guam",
+                "disabled": false,
+                "layout": "IPY_MODEL_55f0ee5e5acf4be6864c742f808544ea",
+                "style": "IPY_MODEL_1c9710d36d1d497f99c3884b74e01c48",
+                "value": false
+            }
+        },
+        "4c5fd7bdf6dd47578ad23f789ba43f34": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "1a9656b4c37847119d507937e55b0846": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "168335e7ecf84fa2a013fdc114ba61a1": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Hong Kong",
+                "disabled": false,
+                "layout": "IPY_MODEL_4c5fd7bdf6dd47578ad23f789ba43f34",
+                "style": "IPY_MODEL_1a9656b4c37847119d507937e55b0846",
+                "value": false
+            }
+        },
+        "b7ba0b38f4c84594a70de1dbee640535": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "5cb89988e8844e22815d8ceab6e443c5": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "9768f17c89a846c4956833712d89c9c6": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "India",
+                "disabled": false,
+                "layout": "IPY_MODEL_b7ba0b38f4c84594a70de1dbee640535",
+                "style": "IPY_MODEL_5cb89988e8844e22815d8ceab6e443c5",
+                "value": false
+            }
+        },
+        "934a7dd4610f4bf9b133b148aa4dfd72": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "9ce350308a7e4fa0b1be8f42b76b4a09": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "8b4c5eecb2ed4b8c9d4bc427fdf70bc3": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Indonesia",
+                "disabled": false,
+                "layout": "IPY_MODEL_934a7dd4610f4bf9b133b148aa4dfd72",
+                "style": "IPY_MODEL_9ce350308a7e4fa0b1be8f42b76b4a09",
+                "value": false
+            }
+        },
+        "99b86ed630c44d6abf747b2921f773bc": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "45ad9f9fd34743569b1a5db0720857f5": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "0a8f228f7d83420b954af90fc9dfb900": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Iraq",
+                "disabled": false,
+                "layout": "IPY_MODEL_99b86ed630c44d6abf747b2921f773bc",
+                "style": "IPY_MODEL_45ad9f9fd34743569b1a5db0720857f5",
+                "value": false
+            }
+        },
+        "6b7773f3324a49558f95b069385c72f1": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "e4f34596f2e04c468e7ff5c9a5337786": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "859a20055e3f4a0daedf56a41f18c4ce": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Israel",
+                "disabled": false,
+                "layout": "IPY_MODEL_6b7773f3324a49558f95b069385c72f1",
+                "style": "IPY_MODEL_e4f34596f2e04c468e7ff5c9a5337786",
+                "value": false
+            }
+        },
+        "a4d5087f25874ad79961aa0f97911a29": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "2f9d667f67f84004880cb8bc9dc22a17": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "0c6643a7b0294ecd8315d554a6e18ef2": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Japan",
+                "disabled": false,
+                "layout": "IPY_MODEL_a4d5087f25874ad79961aa0f97911a29",
+                "style": "IPY_MODEL_2f9d667f67f84004880cb8bc9dc22a17",
+                "value": false
+            }
+        },
+        "9991aaaf3b694a41a58a864e55ce8bd6": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f507353254a5430aad3475f44990a3c5": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "01031515280542e69b2157052e0d325e": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Jordan",
+                "disabled": false,
+                "layout": "IPY_MODEL_9991aaaf3b694a41a58a864e55ce8bd6",
+                "style": "IPY_MODEL_f507353254a5430aad3475f44990a3c5",
+                "value": false
+            }
+        },
+        "0eec7242e3c5427eac2fa81cc2fa3328": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "c94eb89ee0b242268a00a712eb0871cb": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "91a408f738c1433fbc473d8fa4e06256": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Kazakhstan",
+                "disabled": false,
+                "layout": "IPY_MODEL_0eec7242e3c5427eac2fa81cc2fa3328",
+                "style": "IPY_MODEL_c94eb89ee0b242268a00a712eb0871cb",
+                "value": false
+            }
+        },
+        "01fb1716e98e49fc8ed0c66faf8bbb48": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "36c9ee6ecb924a96b196f6803d06485e": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "7321745401684ffe922840fda27f858a": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Korea, Republic of (South)",
+                "disabled": false,
+                "layout": "IPY_MODEL_01fb1716e98e49fc8ed0c66faf8bbb48",
+                "style": "IPY_MODEL_36c9ee6ecb924a96b196f6803d06485e",
+                "value": false
+            }
+        },
+        "a689c1c2571f441f91c6b454591a3b1d": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "a8ff2dc639404e3e893aa2fa22fe4edb": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "7b70b3afbfae413b9b10b4a1543a2633": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Kuwait",
+                "disabled": false,
+                "layout": "IPY_MODEL_a689c1c2571f441f91c6b454591a3b1d",
+                "style": "IPY_MODEL_a8ff2dc639404e3e893aa2fa22fe4edb",
+                "value": false
+            }
+        },
+        "2a07e45d472549f4bc7370d7efc559cb": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "d3826d2683024f379ff5742883c575bb": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "dbb5c7fa592542be85f5416b2e6fa738": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Lebanon",
+                "disabled": false,
+                "layout": "IPY_MODEL_2a07e45d472549f4bc7370d7efc559cb",
+                "style": "IPY_MODEL_d3826d2683024f379ff5742883c575bb",
+                "value": false
+            }
+        },
+        "fa7abf8683544efb938cb4e5f2c6f0f0": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "d550442e344a4013be565dae726b7388": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "64fd58a843b34b52aebb18165ad55d01": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Macau",
+                "disabled": false,
+                "layout": "IPY_MODEL_fa7abf8683544efb938cb4e5f2c6f0f0",
+                "style": "IPY_MODEL_d550442e344a4013be565dae726b7388",
+                "value": false
+            }
+        },
+        "761ac1817f9741558d6b4b4a57286685": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "30360da0fb194468b86f4097d9ffbaf6": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "4a937123ff7444a2a62c5e8749926002": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Malaysia",
+                "disabled": false,
+                "layout": "IPY_MODEL_761ac1817f9741558d6b4b4a57286685",
+                "style": "IPY_MODEL_30360da0fb194468b86f4097d9ffbaf6",
+                "value": false
+            }
+        },
+        "14a15905fd944530963945532d8a8a50": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "9d857be452b74450a5390bca28b5a8ce": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "c6a6d7dc1758449b829722c5bade309b": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "New Zealand",
+                "disabled": false,
+                "layout": "IPY_MODEL_14a15905fd944530963945532d8a8a50",
+                "style": "IPY_MODEL_9d857be452b74450a5390bca28b5a8ce",
+                "value": false
+            }
+        },
+        "de2b8d4549c04cb2ba4d0afc6bd5253b": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "5ce73e94e2214b109b06ac836f329612": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "391cbf9bb45b4494842cd4a821877350": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Oman",
+                "disabled": false,
+                "layout": "IPY_MODEL_de2b8d4549c04cb2ba4d0afc6bd5253b",
+                "style": "IPY_MODEL_5ce73e94e2214b109b06ac836f329612",
+                "value": false
+            }
+        },
+        "a3e6b2db622f4f1b93faf774c9f3e8e1": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "61e1b32501684a7e91f6c2d0c0af3949": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "eba7c3c385784c889311bbc635ea6ab0": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Pakistan",
+                "disabled": false,
+                "layout": "IPY_MODEL_a3e6b2db622f4f1b93faf774c9f3e8e1",
+                "style": "IPY_MODEL_61e1b32501684a7e91f6c2d0c0af3949",
+                "value": false
+            }
+        },
+        "a52004d72a5447cdba640b84964d9f63": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "5b05c923ab4c484599c6981b079407e2": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "6c07fc3a8e0c4c7c8e7d091db61c2352": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Papua-New Guinea",
+                "disabled": false,
+                "layout": "IPY_MODEL_a52004d72a5447cdba640b84964d9f63",
+                "style": "IPY_MODEL_5b05c923ab4c484599c6981b079407e2",
+                "value": false
+            }
+        },
+        "fb10b7c389494f6f8263264ff765291b": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "888cdade1fe14bf3a618043f547af066": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "b4f6e5a0d3324d30a332d7966e42ac0d": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Philippines",
+                "disabled": false,
+                "layout": "IPY_MODEL_fb10b7c389494f6f8263264ff765291b",
+                "style": "IPY_MODEL_888cdade1fe14bf3a618043f547af066",
+                "value": false
+            }
+        },
+        "fac93bf1cbac4e05a42f0f1fa56134d9": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "0d99f8b9db2e470fad17cee2142cd976": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "1bb85ab0dd7b4be1976f2a6783135e4c": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Qatar",
+                "disabled": false,
+                "layout": "IPY_MODEL_fac93bf1cbac4e05a42f0f1fa56134d9",
+                "style": "IPY_MODEL_0d99f8b9db2e470fad17cee2142cd976",
+                "value": false
+            }
+        },
+        "49560dc32cdf492c8f98e8a2a02fc550": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "a29394f48cc041368fa51a7fb034b547": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "f7678f9d7624495395c5bd61cb4df1ed": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Saudi Arabia",
+                "disabled": false,
+                "layout": "IPY_MODEL_49560dc32cdf492c8f98e8a2a02fc550",
+                "style": "IPY_MODEL_a29394f48cc041368fa51a7fb034b547",
+                "value": false
+            }
+        },
+        "a90b9d58d0ee466c8e1ae58eee62d6b5": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "ac544a609e2947709e0f7a7123c8e818": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "8f6a1c2c03f543d5b9b87d3064b4b81f": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Singapore",
+                "disabled": false,
+                "layout": "IPY_MODEL_a90b9d58d0ee466c8e1ae58eee62d6b5",
+                "style": "IPY_MODEL_ac544a609e2947709e0f7a7123c8e818",
+                "value": false
+            }
+        },
+        "314763ef8a814981b3cc81dacfed3fef": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "a9b0f3d6e02b42c4b34afbecd87e7f8d": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "9e6cf4b460a04feda6e7a66b1e3e0f30": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Sri Lanka",
+                "disabled": false,
+                "layout": "IPY_MODEL_314763ef8a814981b3cc81dacfed3fef",
+                "style": "IPY_MODEL_a9b0f3d6e02b42c4b34afbecd87e7f8d",
+                "value": false
+            }
+        },
+        "52cab0e28f914147961ea92da9a5552a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "4320dcbcb735451bb870734fb8fbbb3c": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "73edba6f30704eccb2ca5c9ba02388ce": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Taiwan",
+                "disabled": false,
+                "layout": "IPY_MODEL_52cab0e28f914147961ea92da9a5552a",
+                "style": "IPY_MODEL_4320dcbcb735451bb870734fb8fbbb3c",
+                "value": false
+            }
+        },
+        "d9a424eeefd84718840449b5dc47b3b1": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "d10d3f220e2f4f0888b35d42f2baccdd": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "370a2b27770f4b5386f831528170bfcc": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Thailand",
+                "disabled": false,
+                "layout": "IPY_MODEL_d9a424eeefd84718840449b5dc47b3b1",
+                "style": "IPY_MODEL_d10d3f220e2f4f0888b35d42f2baccdd",
+                "value": false
+            }
+        },
+        "58ec3b26fdba4b7a9c36ed61dc9cce02": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "bac0052e019d4e40864e17fb2a022a97": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "affa14b879f942fca726bd0ee4109660": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "United Arab Emirates",
+                "disabled": false,
+                "layout": "IPY_MODEL_58ec3b26fdba4b7a9c36ed61dc9cce02",
+                "style": "IPY_MODEL_bac0052e019d4e40864e17fb2a022a97",
+                "value": false
+            }
+        },
+        "1ee2a8063e294a528bfd360d05375ace": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "ef1866e5127e410ab69780297a6ebb06": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "1b3ecd5826c345ed87dd97cf4b1e23d7": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Vietnam",
+                "disabled": false,
+                "layout": "IPY_MODEL_1ee2a8063e294a528bfd360d05375ace",
+                "style": "IPY_MODEL_ef1866e5127e410ab69780297a6ebb06",
+                "value": false
+            }
+        },
+        "3fcf8079d7134ca8b3b1b48b0c7440df": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "ba7f1a535df34c44a58a4b48d802d1eb": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "1f6ed93da95d40cf96e900465b0ca5da": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Asia & Oceania, other countries",
+                "disabled": false,
+                "layout": "IPY_MODEL_3fcf8079d7134ca8b3b1b48b0c7440df",
+                "style": "IPY_MODEL_ba7f1a535df34c44a58a4b48d802d1eb",
+                "value": false
+            }
+        },
+        "3b57cceefc7047fa9914bcb54ef9a231": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "1ebff8f3b336452bbb724a04847c8a0b": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "9238ebc6345d40ad95aa31236bbb4f8d": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Albania",
+                "disabled": false,
+                "layout": "IPY_MODEL_3b57cceefc7047fa9914bcb54ef9a231",
+                "style": "IPY_MODEL_1ebff8f3b336452bbb724a04847c8a0b",
+                "value": false
+            }
+        },
+        "4a79cbbcdc354de89df0d9f29d3178ac": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "190dbb7060554daeb119d7aee1e1e718": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "ae2f852be02f47b3917c16fa14a2b5d1": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Austria",
+                "disabled": false,
+                "layout": "IPY_MODEL_4a79cbbcdc354de89df0d9f29d3178ac",
+                "style": "IPY_MODEL_190dbb7060554daeb119d7aee1e1e718",
+                "value": false
+            }
+        },
+        "ee93eb74866f46c1aebd54f7df7a906c": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f91a6cdabbcf4d06ba8caf2a345deec8": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "9174e4da5a034a4b8a73eb819020c69f": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Belarus",
+                "disabled": false,
+                "layout": "IPY_MODEL_ee93eb74866f46c1aebd54f7df7a906c",
+                "style": "IPY_MODEL_f91a6cdabbcf4d06ba8caf2a345deec8",
+                "value": false
+            }
+        },
+        "60ba5e2c23414698a3a50a5b6a65e286": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "cf7e70f754d0458eac7671abd1a5ec5c": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "ed290b33a1574cdcbc8be79fd4145bbd": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Belgium",
+                "disabled": false,
+                "layout": "IPY_MODEL_60ba5e2c23414698a3a50a5b6a65e286",
+                "style": "IPY_MODEL_cf7e70f754d0458eac7671abd1a5ec5c",
+                "value": false
+            }
+        },
+        "13197a92fdb144de83384d1dfa62032f": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "d425cb3010084a8182ed01105dc0c28d": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "50a54d1c9cd84f15b2d359982117ffbe": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Bosnia-Herzegovina",
+                "disabled": false,
+                "layout": "IPY_MODEL_13197a92fdb144de83384d1dfa62032f",
+                "style": "IPY_MODEL_d425cb3010084a8182ed01105dc0c28d",
+                "value": false
+            }
+        },
+        "1d2f1ca3dfb74b0dbc040d18883bf47a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "be94cb613095492d9d2c4909e7b10db3": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "93e9860fcd36429a9ed86141a21c2069": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Bulgaria",
+                "disabled": false,
+                "layout": "IPY_MODEL_1d2f1ca3dfb74b0dbc040d18883bf47a",
+                "style": "IPY_MODEL_be94cb613095492d9d2c4909e7b10db3",
+                "value": false
+            }
+        },
+        "129c3f048eb74cc9a9d266afa5a14035": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "0fcc482971f54adb8614260237ef7e1f": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "0ba5c12a120f4448b2c5a110f73df159": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Croatia",
+                "disabled": false,
+                "layout": "IPY_MODEL_129c3f048eb74cc9a9d266afa5a14035",
+                "style": "IPY_MODEL_0fcc482971f54adb8614260237ef7e1f",
+                "value": false
+            }
+        },
+        "e2d026f2c98442838d81b98cd0a79a21": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "8bbae01d49ef492683ead5b6bbb034d7": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "7008f0699b5c4147ae6168fbcea2d501": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Cyprus",
+                "disabled": false,
+                "layout": "IPY_MODEL_e2d026f2c98442838d81b98cd0a79a21",
+                "style": "IPY_MODEL_8bbae01d49ef492683ead5b6bbb034d7",
+                "value": false
+            }
+        },
+        "6f5c253183a6497aa33f66d71781b576": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "d3a1dd0b9b524b71953577cbf93d400a": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "bba1529ae4294d06b195a4e3827c5c44": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Czech Republic",
+                "disabled": false,
+                "layout": "IPY_MODEL_6f5c253183a6497aa33f66d71781b576",
+                "style": "IPY_MODEL_d3a1dd0b9b524b71953577cbf93d400a",
+                "value": false
+            }
+        },
+        "178e8fc2fb38442b85c15da441b3275e": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f94b6a3af7d4421ba85e73ace7416393": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "0a4456334e444d2eae80344c313d6bc8": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Denmark",
+                "disabled": false,
+                "layout": "IPY_MODEL_178e8fc2fb38442b85c15da441b3275e",
+                "style": "IPY_MODEL_f94b6a3af7d4421ba85e73ace7416393",
+                "value": false
+            }
+        },
+        "acfcaa55ccfc4547b81ec8ca901ad0e3": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "aeee49e10baa4405921c6338f69a3b0e": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "225b5fcc0bb745e3a741124c48132c82": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Estonia",
+                "disabled": false,
+                "layout": "IPY_MODEL_acfcaa55ccfc4547b81ec8ca901ad0e3",
+                "style": "IPY_MODEL_aeee49e10baa4405921c6338f69a3b0e",
+                "value": false
+            }
+        },
+        "28cc74f1132247d2b6f9f26af0693e37": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "db1ed55fb4104cab9cc48a5ac41cfcb2": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "0f6e1e2653af4a658c9fe8330ad503ff": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Finland",
+                "disabled": false,
+                "layout": "IPY_MODEL_28cc74f1132247d2b6f9f26af0693e37",
+                "style": "IPY_MODEL_db1ed55fb4104cab9cc48a5ac41cfcb2",
+                "value": false
+            }
+        },
+        "173d18907e764dea9e1ec4a64087759d": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "5ab8fa84b2a14be68990b754416418ba": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "653dbd8001d840c09968db16c1a26e40": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "France",
+                "disabled": false,
+                "layout": "IPY_MODEL_173d18907e764dea9e1ec4a64087759d",
+                "style": "IPY_MODEL_5ab8fa84b2a14be68990b754416418ba",
+                "value": false
+            }
+        },
+        "2a265af8cac940b58f1613eb34b9d2d6": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "9efbfecc79cf4a0c869877556934c778": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "61247e6b071f4e1eb64212affe27ae74": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Germany",
+                "disabled": false,
+                "layout": "IPY_MODEL_2a265af8cac940b58f1613eb34b9d2d6",
+                "style": "IPY_MODEL_9efbfecc79cf4a0c869877556934c778",
+                "value": false
+            }
+        },
+        "57750e9b7a724acbbc734c3d52459d3a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "a6d7b1b2a17e4419a9f3f8a1e735f084": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "2e6998b46c374d67929552381756095b": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Greece",
+                "disabled": false,
+                "layout": "IPY_MODEL_57750e9b7a724acbbc734c3d52459d3a",
+                "style": "IPY_MODEL_a6d7b1b2a17e4419a9f3f8a1e735f084",
+                "value": false
+            }
+        },
+        "628c7e9dde824d20a04c4a4acba2842a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "eb642fecf9f442cea26a99dc1bd8bc35": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "e8305edd812d4cfbaba3238f64cb0bcf": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Guernsey",
+                "disabled": false,
+                "layout": "IPY_MODEL_628c7e9dde824d20a04c4a4acba2842a",
+                "style": "IPY_MODEL_eb642fecf9f442cea26a99dc1bd8bc35",
+                "value": false
+            }
+        },
+        "d5cea98af8934770b136dbc749dfe241": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "efbd10c324454442b9af05566513429e": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "393ea077d01e42c2958bd51dd8dacb97": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Hungary",
+                "disabled": false,
+                "layout": "IPY_MODEL_d5cea98af8934770b136dbc749dfe241",
+                "style": "IPY_MODEL_efbd10c324454442b9af05566513429e",
+                "value": false
+            }
+        },
+        "af817691215e4d1bae5a5228b98f3a42": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "46ab19470f9045388ced8ae9b4f5ec4e": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "320ce8ccb2a54fb7bc6c0ac5733e270b": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Iceland",
+                "disabled": false,
+                "layout": "IPY_MODEL_af817691215e4d1bae5a5228b98f3a42",
+                "style": "IPY_MODEL_46ab19470f9045388ced8ae9b4f5ec4e",
+                "value": false
+            }
+        },
+        "bf20f6ff6f164656ae815f628ca9b46a": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "fb33c7f8a0d140929957a72e1631c99c": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "1cd18268da3d4ea69b3146ec45b09a93": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Ireland",
+                "disabled": false,
+                "layout": "IPY_MODEL_bf20f6ff6f164656ae815f628ca9b46a",
+                "style": "IPY_MODEL_fb33c7f8a0d140929957a72e1631c99c",
+                "value": false
+            }
+        },
+        "23db9b501d774d1fba03aeaaa4e4d0f9": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "fe983b58caf248a5a271da5d8ec44154": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "0d540c2853434ee2887a086c2fb691ae": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Italy",
+                "disabled": false,
+                "layout": "IPY_MODEL_23db9b501d774d1fba03aeaaa4e4d0f9",
+                "style": "IPY_MODEL_fe983b58caf248a5a271da5d8ec44154",
+                "value": false
+            }
+        },
+        "a3a0c2a080ed44b7a1597d526f9ead72": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "a75ec5f149ba4d299dbfe1333c49c2d6": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "2ac13420b88845ecb733791ab1c6dbc4": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Jersey",
+                "disabled": false,
+                "layout": "IPY_MODEL_a3a0c2a080ed44b7a1597d526f9ead72",
+                "style": "IPY_MODEL_a75ec5f149ba4d299dbfe1333c49c2d6",
+                "value": false
+            }
+        },
+        "4b8ecf331cd540d0a32b2febb2d89b8e": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "421064dfb9024951be1426132fc3f579": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "fe9aeefdbf61454b902d5a7ce098e8b7": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Latvia",
+                "disabled": false,
+                "layout": "IPY_MODEL_4b8ecf331cd540d0a32b2febb2d89b8e",
+                "style": "IPY_MODEL_421064dfb9024951be1426132fc3f579",
+                "value": false
+            }
+        },
+        "d087657a2af344a49cbed413c43c4917": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "3ee95aa2df6141d088eb920eae4d4631": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "90c63cc68dfa4badafe39ab6e86e417e": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Lithuania",
+                "disabled": false,
+                "layout": "IPY_MODEL_d087657a2af344a49cbed413c43c4917",
+                "style": "IPY_MODEL_3ee95aa2df6141d088eb920eae4d4631",
+                "value": false
+            }
+        },
+        "604022aaaa5c424b895708bf53fdc27d": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "8acc1f7fd456419abec5ede04d791f7a": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "c52425163d8744bbb74fcd578a1b687e": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Luxembourg",
+                "disabled": false,
+                "layout": "IPY_MODEL_604022aaaa5c424b895708bf53fdc27d",
+                "style": "IPY_MODEL_8acc1f7fd456419abec5ede04d791f7a",
+                "value": false
+            }
+        },
+        "b21e652c37dd456ab52777c9f670bb09": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "d76bcc83f82f43409ef326ef158edd17": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "3858fd07cfde4d99b7ee1d0db18110f0": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Macedonia",
+                "disabled": false,
+                "layout": "IPY_MODEL_b21e652c37dd456ab52777c9f670bb09",
+                "style": "IPY_MODEL_d76bcc83f82f43409ef326ef158edd17",
+                "value": false
+            }
+        },
+        "878c4f0562614237a471a05d6dc87ea2": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "f9f75c8b01a34ef6b097576494e094fc": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "9ab00f978ef349948ad2b1fb31c2b6f4": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Malta",
+                "disabled": false,
+                "layout": "IPY_MODEL_878c4f0562614237a471a05d6dc87ea2",
+                "style": "IPY_MODEL_f9f75c8b01a34ef6b097576494e094fc",
+                "value": false
+            }
+        },
+        "136ea3923dda4b529c538280830b6af3": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "b2df0edc94c94b7d8d6627f5d7c34ac2": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "9bd34964242948b08775667018d90aeb": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Monaco",
+                "disabled": false,
+                "layout": "IPY_MODEL_136ea3923dda4b529c538280830b6af3",
+                "style": "IPY_MODEL_b2df0edc94c94b7d8d6627f5d7c34ac2",
+                "value": false
+            }
+        },
+        "68f8618f78ed453eb1af997985620f48": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "161ea4c6c9ef46b495b7b585767f42a7": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "83ee405771cd4c86bae1e4edd33cda6e": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Netherlands",
+                "disabled": false,
+                "layout": "IPY_MODEL_68f8618f78ed453eb1af997985620f48",
+                "style": "IPY_MODEL_161ea4c6c9ef46b495b7b585767f42a7",
+                "value": false
+            }
+        },
+        "911b59dfb0c5482ba3abeff50a5036c4": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "1e587b016fe74e5da63b563b912b0ce3": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "9a8ccc4d5b6c45fe9300007792e07889": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Norway",
+                "disabled": false,
+                "layout": "IPY_MODEL_911b59dfb0c5482ba3abeff50a5036c4",
+                "style": "IPY_MODEL_1e587b016fe74e5da63b563b912b0ce3",
+                "value": false
+            }
+        },
+        "4fe15b65f5eb45d786c650914ee10340": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "4041bf98d1b54b1cb30e13a1d0ab221f": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "07fb9eec452f4455b3b837e9bd858608": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Poland",
+                "disabled": false,
+                "layout": "IPY_MODEL_4fe15b65f5eb45d786c650914ee10340",
+                "style": "IPY_MODEL_4041bf98d1b54b1cb30e13a1d0ab221f",
+                "value": false
+            }
+        },
+        "198e08c7d7aa42c6b0a165bde81a75fb": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "47d5876619364f3ea89d8d7f20eb3b4f": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "4732d95ffe604b898bd08e79f181a28c": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Portugal",
+                "disabled": false,
+                "layout": "IPY_MODEL_198e08c7d7aa42c6b0a165bde81a75fb",
+                "style": "IPY_MODEL_47d5876619364f3ea89d8d7f20eb3b4f",
+                "value": false
+            }
+        },
+        "f58b767ab8604d4e84f2d731fb5d1ee7": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "5ab7f881dea440af8120d2ad327b6918": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "e9879a22ebcb4925b06ef928a262fefa": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Romania",
+                "disabled": false,
+                "layout": "IPY_MODEL_f58b767ab8604d4e84f2d731fb5d1ee7",
+                "style": "IPY_MODEL_5ab7f881dea440af8120d2ad327b6918",
+                "value": false
+            }
+        },
+        "23f6698621194abdad1666ddae0991a8": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "437861cefccc4f1ea72398ba4d67dbf1": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "381b91a08a1a488da5f5420a0657586a": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Russia",
+                "disabled": false,
+                "layout": "IPY_MODEL_23f6698621194abdad1666ddae0991a8",
+                "style": "IPY_MODEL_437861cefccc4f1ea72398ba4d67dbf1",
+                "value": false
+            }
+        },
+        "4998044ed6ed4277bbae37efa3d43bac": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "53a21f96c8c64083a6c16d55c753286e": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "c8d9e703cbea462fb407931de5d7fb1a": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Serbia",
+                "disabled": false,
+                "layout": "IPY_MODEL_4998044ed6ed4277bbae37efa3d43bac",
+                "style": "IPY_MODEL_53a21f96c8c64083a6c16d55c753286e",
+                "value": false
+            }
+        },
+        "4a2eac5e61cf4fc9be8cb94d6630f5b5": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "af2cd6e980b347f7bef7e61a96ceada5": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "c7f1bb6c0c284f07950b935cb9c58972": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Slovakia",
+                "disabled": false,
+                "layout": "IPY_MODEL_4a2eac5e61cf4fc9be8cb94d6630f5b5",
+                "style": "IPY_MODEL_af2cd6e980b347f7bef7e61a96ceada5",
+                "value": false
+            }
+        },
+        "c58454c8713c444a8e61cd0ed08f06ae": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "8b48883623c94c548613039572ad87e2": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "abab083a70ce42d1bfcb925dffde2390": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Slovenia",
+                "disabled": false,
+                "layout": "IPY_MODEL_c58454c8713c444a8e61cd0ed08f06ae",
+                "style": "IPY_MODEL_8b48883623c94c548613039572ad87e2",
+                "value": false
+            }
+        },
+        "6e2f9a273e8c4976b55791664c8b6884": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "fc141ec3316a4470b3c3bbcdb300c117": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "d3b6269e0ad44d0c9fd104893bad11ed": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Spain",
+                "disabled": false,
+                "layout": "IPY_MODEL_6e2f9a273e8c4976b55791664c8b6884",
+                "style": "IPY_MODEL_fc141ec3316a4470b3c3bbcdb300c117",
+                "value": false
+            }
+        },
+        "3b44e7f6743d4e78b8fb1f477044550f": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "8e69e51ffce143b9ba2b3b88b3c6df80": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "fafbac5bafca40d1aa622d6f2232bbb8": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Sweden",
+                "disabled": false,
+                "layout": "IPY_MODEL_3b44e7f6743d4e78b8fb1f477044550f",
+                "style": "IPY_MODEL_8e69e51ffce143b9ba2b3b88b3c6df80",
+                "value": false
+            }
+        },
+        "7a532887ad8b434fac81ad35dd2ccd26": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "39c5ea9b14664a22a0a6d1ec5b4cf55e": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "b95032cabede457282a1bfa774c7b584": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Switzerland",
+                "disabled": false,
+                "layout": "IPY_MODEL_7a532887ad8b434fac81ad35dd2ccd26",
+                "style": "IPY_MODEL_39c5ea9b14664a22a0a6d1ec5b4cf55e",
+                "value": false
+            }
+        },
+        "a9a02a8f4e4c4ae2bc97b30b1b813f67": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "9037eda5b2934e37a144069cc04f8f46": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "9a7a789a32494dee974342c0089774c4": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Turkey",
+                "disabled": false,
+                "layout": "IPY_MODEL_a9a02a8f4e4c4ae2bc97b30b1b813f67",
+                "style": "IPY_MODEL_9037eda5b2934e37a144069cc04f8f46",
+                "value": false
+            }
+        },
+        "0bff7d81c9194ae2ab08457e7e845efc": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "28b8ad5aa65b4575a32a118570e18635": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "eb04676a85424d2189258be450da32a0": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Ukraine",
+                "disabled": false,
+                "layout": "IPY_MODEL_0bff7d81c9194ae2ab08457e7e845efc",
+                "style": "IPY_MODEL_28b8ad5aa65b4575a32a118570e18635",
+                "value": false
+            }
+        },
+        "3f76378757b9499eba581de12bda2f14": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "ff3667e83755488fa3edee52ebd37240": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "e6b49edd0e134df79d30d73bb858ba0a": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "United Kingdom (England, Northern Ireland, Scotland, and Wales",
+                "disabled": false,
+                "layout": "IPY_MODEL_3f76378757b9499eba581de12bda2f14",
+                "style": "IPY_MODEL_ff3667e83755488fa3edee52ebd37240",
+                "value": false
+            }
+        },
+        "a1f45897ec094b86ab4cd958e8fc4bd2": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "b1b2f198ea814692b5eed9ea94a68eea": {
+            "model_name": "DescriptionStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description_width": ""
+            }
+        },
+        "716e7c8b23b9413c884b3c8c80677a38": {
+            "model_name": "CheckboxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Europe, other countries",
+                "disabled": false,
+                "layout": "IPY_MODEL_a1f45897ec094b86ab4cd958e8fc4bd2",
+                "style": "IPY_MODEL_b1b2f198ea814692b5eed9ea94a68eea",
+                "value": false
+            }
+        },
+        "ac12a71cbce14ecc9b9aedc6371e0c12": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {
+                "overflow": "scroll"
+            }
+        },
+        "7ea6ac1f3a664dd6af3285d04c4a8a1d": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_5d20ffafa6a74277b56c7913efa749c4",
+                    "IPY_MODEL_1efd97f0c06f4f638304ae3c316b2207",
+                    "IPY_MODEL_7f2cee134b1c49bdb8ece7c00e6d80ac",
+                    "IPY_MODEL_1628dbcdcbfa4516b6b91ba35e5ddea5",
+                    "IPY_MODEL_877ba9dfcbb64b5a909a1053a168ab67",
+                    "IPY_MODEL_57496e907e024078990e3f6ad773696d",
+                    "IPY_MODEL_e1c4a559f79b4efba410cb5d3360d7e9",
+                    "IPY_MODEL_d7f8aaa2a1084d719f748e89238ec548",
+                    "IPY_MODEL_8c6789d301de4fc3865b2a42fceebd1f",
+                    "IPY_MODEL_ccdc3e46c6a64fef95cb3852531a547d",
+                    "IPY_MODEL_1b28390de788458a9bd16da1c352363c",
+                    "IPY_MODEL_89faf292f2cd434d8d7452fbda39d71f",
+                    "IPY_MODEL_15f4f91b3ce44b48b83d842db41c167f",
+                    "IPY_MODEL_493e998c28e14bca8ead5a3824f7af08",
+                    "IPY_MODEL_80f7e278654141cfad94560e0876a2f5",
+                    "IPY_MODEL_14203c9987dc44aca2b4c5ae69bc0dd8",
+                    "IPY_MODEL_56c8b0fb43bd4766b87194d0422be9c4",
+                    "IPY_MODEL_9d810b6acc3b4a2dba8a37b333e0143b",
+                    "IPY_MODEL_3605dc2468ea494f8ea1f92107ad8a98",
+                    "IPY_MODEL_c18a371bc2ad4453805f5c379c4187cc",
+                    "IPY_MODEL_cfcac34832004875ba30b7437b2383ff",
+                    "IPY_MODEL_ce410a3833e1439ea7e2473c12944c9e",
+                    "IPY_MODEL_baf069dcdbb5404b9c8ddab05f40067d",
+                    "IPY_MODEL_4beff31513144c6ea4623d6c77265b01",
+                    "IPY_MODEL_441d6849ed844ef8b57ce5f858ed7519",
+                    "IPY_MODEL_335b64f1dc29432497d32368c64ae590",
+                    "IPY_MODEL_3a475ed4f3cc4008bd30458453bcbf14",
+                    "IPY_MODEL_b400d2a05d6a48aaaea2be77f705095c",
+                    "IPY_MODEL_490ecdf827a5488d9b26d0c2059fef75",
+                    "IPY_MODEL_cb119a98730b47b3a14e842f846a5aa5",
+                    "IPY_MODEL_1442e3aecb6b427c92bad2f6eb582a7d",
+                    "IPY_MODEL_f1382cb684c34e3990c7f1a2d94427bd",
+                    "IPY_MODEL_d5b23d45ce004c668b8d54c966d02a95",
+                    "IPY_MODEL_c01ef2faca764c93a01ea217132b776b",
+                    "IPY_MODEL_b60037b5bc5a4fce8a7e17041a9d7df0",
+                    "IPY_MODEL_5dde4172b87b4fa6b63c08ce2ce45697",
+                    "IPY_MODEL_b5d5869f260b49f9b92935b93220be6a",
+                    "IPY_MODEL_16103169e8d843d58e748b282bdf0495",
+                    "IPY_MODEL_4cf5b65d05bc409083a446227c64e944",
+                    "IPY_MODEL_2da8d19d06da43e092258faf7ba9822b",
+                    "IPY_MODEL_f8ddcd45774a40f0a7e34cd6c4809821",
+                    "IPY_MODEL_67b3186c310444d5924110871869ffd9",
+                    "IPY_MODEL_18ab5c51932449eebafd5cda61c17da4",
+                    "IPY_MODEL_fa143033ed0e4eec8b397169060347a7",
+                    "IPY_MODEL_28c1883f60d14c0cb5084adb01a288ff",
+                    "IPY_MODEL_88803ad7d06a44e398303ba24760bf36",
+                    "IPY_MODEL_b944e7f8a8164daea855522392efd2dd",
+                    "IPY_MODEL_0f60b07d4dcd4d089d1ec12679133f58",
+                    "IPY_MODEL_1a3b64e5f3c44cc6934c8f236032e43e",
+                    "IPY_MODEL_0185fd49ce034b9ca65a6f577c42ce50",
+                    "IPY_MODEL_60d6f30b294d4dbab257d4b1dac6eae7",
+                    "IPY_MODEL_80b00306bb6847fdb4b4ffbdaca5917d",
+                    "IPY_MODEL_e6111b4eec6a4f44a6391444b1fe0fb3",
+                    "IPY_MODEL_3d6e1b192ce648be9222575d13594a42",
+                    "IPY_MODEL_a0d24487e6f44ba6a924023508375b0f",
+                    "IPY_MODEL_2b03396e10174b9bbf38a83d7ee7317c",
+                    "IPY_MODEL_3fc23b4c0cca4e7e9050806cc2535878",
+                    "IPY_MODEL_9cbbbeea5e3c4523bd410c6d15e7592f",
+                    "IPY_MODEL_b669ed35d18e46be8c9dd556e87d14ef",
+                    "IPY_MODEL_2a887896c6464b62a0a5bd285777c017",
+                    "IPY_MODEL_486b2855de3a48a8aab76e7280e3010a",
+                    "IPY_MODEL_d1ec77931ccf4ef69b760d753d17e87a",
+                    "IPY_MODEL_b50976e2da3742009c10db1d58bb3b04",
+                    "IPY_MODEL_44126c047d00457e97b2edc5ebc015a9",
+                    "IPY_MODEL_9813dcd793b840c8b1132084063c8c8c",
+                    "IPY_MODEL_a1ef7b4513c64c8fb474cc85d847a3de",
+                    "IPY_MODEL_acf843c704994ce2b9af5a3ae49523b7",
+                    "IPY_MODEL_4b61f8c14f394cc79007a4faca837b2c",
+                    "IPY_MODEL_075cf22340ce49549f5d9d05e1cf69b7",
+                    "IPY_MODEL_34f4f831ee284a94bff40cd101f910ca",
+                    "IPY_MODEL_3ec5d5ed0fda402cb82c85dbb8999d90",
+                    "IPY_MODEL_fa2349e8631c4c6e9b65bc6ff27ccaeb",
+                    "IPY_MODEL_e19a61d7e4b04c86982ea9cec8f3a09c",
+                    "IPY_MODEL_a21e330b6dfb4a9ebf5282707c7401f3",
+                    "IPY_MODEL_65f0e0a0eafd4cc9b88e7e950ccb00ce",
+                    "IPY_MODEL_636e0204e058468db25ea51b1e8d867e",
+                    "IPY_MODEL_a2d17a196440403196b133b46126fa60",
+                    "IPY_MODEL_2074ba4a9e40457088fec215cd50f212",
+                    "IPY_MODEL_2c9f52dc2a9c443db6c2d7bcd1c3e2ef",
+                    "IPY_MODEL_a90ce058876647d890312b3a0b90f9a2",
+                    "IPY_MODEL_b873844ea0b84e2083a74e28028254fb",
+                    "IPY_MODEL_0174904ab29e40bca0c0652f7a72a7a6",
+                    "IPY_MODEL_9243fa7a7c6444cea6504b361b68486a",
+                    "IPY_MODEL_ddd9047f316843a88c8ffa6bfbfc4af8",
+                    "IPY_MODEL_13557a1049ec4ffda5b70a0b105ab841",
+                    "IPY_MODEL_fa2d6d38c820413197dc9cc4771d648b",
+                    "IPY_MODEL_a440aabba07d4a17bc230bea946c78bb",
+                    "IPY_MODEL_168335e7ecf84fa2a013fdc114ba61a1",
+                    "IPY_MODEL_9768f17c89a846c4956833712d89c9c6",
+                    "IPY_MODEL_8b4c5eecb2ed4b8c9d4bc427fdf70bc3",
+                    "IPY_MODEL_0a8f228f7d83420b954af90fc9dfb900",
+                    "IPY_MODEL_859a20055e3f4a0daedf56a41f18c4ce",
+                    "IPY_MODEL_0c6643a7b0294ecd8315d554a6e18ef2",
+                    "IPY_MODEL_01031515280542e69b2157052e0d325e",
+                    "IPY_MODEL_91a408f738c1433fbc473d8fa4e06256",
+                    "IPY_MODEL_7321745401684ffe922840fda27f858a",
+                    "IPY_MODEL_7b70b3afbfae413b9b10b4a1543a2633",
+                    "IPY_MODEL_dbb5c7fa592542be85f5416b2e6fa738",
+                    "IPY_MODEL_64fd58a843b34b52aebb18165ad55d01",
+                    "IPY_MODEL_4a937123ff7444a2a62c5e8749926002",
+                    "IPY_MODEL_c6a6d7dc1758449b829722c5bade309b",
+                    "IPY_MODEL_391cbf9bb45b4494842cd4a821877350",
+                    "IPY_MODEL_eba7c3c385784c889311bbc635ea6ab0",
+                    "IPY_MODEL_6c07fc3a8e0c4c7c8e7d091db61c2352",
+                    "IPY_MODEL_b4f6e5a0d3324d30a332d7966e42ac0d",
+                    "IPY_MODEL_1bb85ab0dd7b4be1976f2a6783135e4c",
+                    "IPY_MODEL_f7678f9d7624495395c5bd61cb4df1ed",
+                    "IPY_MODEL_8f6a1c2c03f543d5b9b87d3064b4b81f",
+                    "IPY_MODEL_9e6cf4b460a04feda6e7a66b1e3e0f30",
+                    "IPY_MODEL_73edba6f30704eccb2ca5c9ba02388ce",
+                    "IPY_MODEL_370a2b27770f4b5386f831528170bfcc",
+                    "IPY_MODEL_affa14b879f942fca726bd0ee4109660",
+                    "IPY_MODEL_1b3ecd5826c345ed87dd97cf4b1e23d7",
+                    "IPY_MODEL_1f6ed93da95d40cf96e900465b0ca5da",
+                    "IPY_MODEL_9238ebc6345d40ad95aa31236bbb4f8d",
+                    "IPY_MODEL_ae2f852be02f47b3917c16fa14a2b5d1",
+                    "IPY_MODEL_9174e4da5a034a4b8a73eb819020c69f",
+                    "IPY_MODEL_ed290b33a1574cdcbc8be79fd4145bbd",
+                    "IPY_MODEL_50a54d1c9cd84f15b2d359982117ffbe",
+                    "IPY_MODEL_93e9860fcd36429a9ed86141a21c2069",
+                    "IPY_MODEL_0ba5c12a120f4448b2c5a110f73df159",
+                    "IPY_MODEL_7008f0699b5c4147ae6168fbcea2d501",
+                    "IPY_MODEL_bba1529ae4294d06b195a4e3827c5c44",
+                    "IPY_MODEL_0a4456334e444d2eae80344c313d6bc8",
+                    "IPY_MODEL_225b5fcc0bb745e3a741124c48132c82",
+                    "IPY_MODEL_0f6e1e2653af4a658c9fe8330ad503ff",
+                    "IPY_MODEL_653dbd8001d840c09968db16c1a26e40",
+                    "IPY_MODEL_61247e6b071f4e1eb64212affe27ae74",
+                    "IPY_MODEL_2e6998b46c374d67929552381756095b",
+                    "IPY_MODEL_e8305edd812d4cfbaba3238f64cb0bcf",
+                    "IPY_MODEL_393ea077d01e42c2958bd51dd8dacb97",
+                    "IPY_MODEL_320ce8ccb2a54fb7bc6c0ac5733e270b",
+                    "IPY_MODEL_1cd18268da3d4ea69b3146ec45b09a93",
+                    "IPY_MODEL_0d540c2853434ee2887a086c2fb691ae",
+                    "IPY_MODEL_2ac13420b88845ecb733791ab1c6dbc4",
+                    "IPY_MODEL_fe9aeefdbf61454b902d5a7ce098e8b7",
+                    "IPY_MODEL_90c63cc68dfa4badafe39ab6e86e417e",
+                    "IPY_MODEL_c52425163d8744bbb74fcd578a1b687e",
+                    "IPY_MODEL_3858fd07cfde4d99b7ee1d0db18110f0",
+                    "IPY_MODEL_9ab00f978ef349948ad2b1fb31c2b6f4",
+                    "IPY_MODEL_9bd34964242948b08775667018d90aeb",
+                    "IPY_MODEL_83ee405771cd4c86bae1e4edd33cda6e",
+                    "IPY_MODEL_9a8ccc4d5b6c45fe9300007792e07889",
+                    "IPY_MODEL_07fb9eec452f4455b3b837e9bd858608",
+                    "IPY_MODEL_4732d95ffe604b898bd08e79f181a28c",
+                    "IPY_MODEL_e9879a22ebcb4925b06ef928a262fefa",
+                    "IPY_MODEL_381b91a08a1a488da5f5420a0657586a",
+                    "IPY_MODEL_c8d9e703cbea462fb407931de5d7fb1a",
+                    "IPY_MODEL_c7f1bb6c0c284f07950b935cb9c58972",
+                    "IPY_MODEL_abab083a70ce42d1bfcb925dffde2390",
+                    "IPY_MODEL_d3b6269e0ad44d0c9fd104893bad11ed",
+                    "IPY_MODEL_fafbac5bafca40d1aa622d6f2232bbb8",
+                    "IPY_MODEL_b95032cabede457282a1bfa774c7b584",
+                    "IPY_MODEL_9a7a789a32494dee974342c0089774c4",
+                    "IPY_MODEL_eb04676a85424d2189258be450da32a0",
+                    "IPY_MODEL_e6b49edd0e134df79d30d73bb858ba0a",
+                    "IPY_MODEL_716e7c8b23b9413c884b3c8c80677a38"
+                ],
+                "layout": "IPY_MODEL_ac12a71cbce14ecc9b9aedc6371e0c12"
+            }
+        },
+        "5e47c36f9fb94a4380e5882d976a46fb": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "accfc07fefa74255ae4a7fab574be6e0": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "children": [
+                    "IPY_MODEL_bd8ec34b928f429eb1acac25839c5637",
+                    "IPY_MODEL_7ea6ac1f3a664dd6af3285d04c4a8a1d"
+                ],
+                "layout": "IPY_MODEL_5e47c36f9fb94a4380e5882d976a46fb"
+            }
+        },
+        "ed05521f31814eaaa1aa39d1e37b7f93": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "6b6a7ff5e61d49c8abcfe106706ff7ba": {
+            "model_name": "ButtonStyleModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {}
+        },
+        "0e24eb01c36d403a8d54ff85c02449e4": {
+            "model_name": "ButtonModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "description": "Update Jurisdictions",
+                "layout": "IPY_MODEL_ed05521f31814eaaa1aa39d1e37b7f93",
+                "style": "IPY_MODEL_6b6a7ff5e61d49c8abcfe106706ff7ba"
+            }
+        },
+        "d56990ddd83447019b252ea9c6c6eeea": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "8f12b29faad94716bfdc038e9f5c645f": {
+            "model_name": "VBoxModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_dom_classes": [
+                    "widget-interact"
+                ],
+                "children": [
+                    "IPY_MODEL_6f2de17c0f1f4aac87420cbfe80121ec",
+                    "IPY_MODEL_22cf4d4cbcee48b7a1f8822f37f731e7",
+                    "IPY_MODEL_74210e9a62404a1994bed2d677a89853",
+                    "IPY_MODEL_93e2178dc2994c5faf20f1a54301eebd"
+                ],
+                "layout": "IPY_MODEL_d56990ddd83447019b252ea9c6c6eeea"
+            }
+        },
+        "ae221f0d4a6b4f3b8beb2c2ee6b3d013": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "93e2178dc2994c5faf20f1a54301eebd": {
+            "model_name": "OutputModel",
+            "model_module": "@jupyter-widgets/output",
+            "model_module_version": "1.0.0",
+            "state": {
+                "layout": "IPY_MODEL_ae221f0d4a6b4f3b8beb2c2ee6b3d013"
+            }
+        },
+        "7f5422877a34437896a869f20dd1d9c4": {
+            "model_name": "LayoutModel",
+            "model_module": "@jupyter-widgets/base",
+            "model_module_version": "1.2.0",
+            "state": {}
+        },
+        "91ed16da7fee4f219a9121911b76cff4": {
+            "model_name": "AccordionModel",
+            "model_module": "@jupyter-widgets/controls",
+            "model_module_version": "1.5.0",
+            "state": {
+                "_titles": {
+                    "0": "Global Profits Apportioned",
+                    "1": "Allocation Method",
+                    "2": "Tax Revenue Change As...",
+                    "3": "Jurisdictions"
+                },
+                "children": [
+                    "IPY_MODEL_6f2de17c0f1f4aac87420cbfe80121ec",
+                    "IPY_MODEL_22cf4d4cbcee48b7a1f8822f37f731e7",
+                    "IPY_MODEL_74210e9a62404a1994bed2d677a89853",
+                    "IPY_MODEL_accfc07fefa74255ae4a7fab574be6e0"
+                ],
+                "layout": "IPY_MODEL_7f5422877a34437896a869f20dd1d9c4"
+            }
+        }
+    }
+}
+</script>
+</head>
+<body>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "6f2de17c0f1f4aac87420cbfe80121ec"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "22cf4d4cbcee48b7a1f8822f37f731e7"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "74210e9a62404a1994bed2d677a89853"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "0e24eb01c36d403a8d54ff85c02449e4"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "accfc07fefa74255ae4a7fab574be6e0"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "91ed16da7fee4f219a9121911b76cff4"
+}
+</script>
+
+<script type="application/vnd.jupyter.widget-view+json">
+{
+    "version_major": 2,
+    "version_minor": 0,
+    "model_id": "0e24eb01c36d403a8d54ff85c02449e4"
+}
+</script>
+
+</body>
+</html>
