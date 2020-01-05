@@ -1,0 +1,8 @@
+numpy
+ipywidgets
+nbinteract
+IPython.display
+matplotlib
+pandas
+difflib
+os
