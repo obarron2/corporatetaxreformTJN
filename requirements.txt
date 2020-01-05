@@ -4,5 +4,4 @@ nbinteract
 IPython
 matplotlib
 pandas
-difflib
 os
